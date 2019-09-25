@@ -1,0 +1,105 @@
+.container {
+  padding: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+.header .title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main .item {
+  width: 90vw;
+  height: 5rem;
+  font-size: 0.9rem;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.main .item .comands {
+  color: #00e200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.main .item .icon {
+  width: 30px;
+  height: 30px;
+}
+.main .item .icon.-arrowLeft {
+  transform: rotate(90deg);
+  margin: 0 10px;
+}
+
+.main .item .icon.-arrowRight {
+  transform: rotate(-90deg);
+  margin: 0 10px;
+}
+
+.main .item .icon.-arrowRightDown {
+  transform: rotate(-45deg);
+  margin: 0 5px;
+}
+
+.main .item .icon.-arrowUp {
+  transform: rotate(180deg);
+}
+
+.main .item .icon.-arrowRightUp {
+  transform: rotate(-135deg);
+  margin: 0 5px;
+}
+
+.main .item .buttonArrow {
+  display: inline-flex;
+  position: relative;
+  margin: 0 20px;
+}
+
+.main .item .buttonArrow .icon.-halfMoonLeft {
+  position: absolute;
+  top: 10px;
+  right: 0.1rem;
+  transform: rotate(-95deg) scale(1.4);
+}
+
+.main .item .buttonArrow .icon.-halfMoonRight {
+  position: absolute;
+  top: 10px;
+  left: 0.1rem;
+  transform: scale(1.4) rotateX(180deg) rotate(90deg);
+}
+
+.main .item .buttonArrow .icon.-arrowMoon {
+  position: absolute;
+  top: -0.1rem;
+  left: 0.15rem;
+  transform: scale(1.6) rotateX(180deg) rotate(135deg);
+}
+
+.main .item .buttonArrow .icon.-midlleArrow {
+  position: absolute;
+  top: -0.2rem;
+  right: 0.4rem;
+  transform: scale(1.4);
+}
+
+.main .item .notes {
+  font-size: 0.6rem;
+  margin-left: 0.2rem;
+}
