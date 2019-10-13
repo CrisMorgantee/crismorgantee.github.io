@@ -1,0 +1,19 @@
+.footer-page {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.footer-page > .content {
+  display: inline-block;
+}
+
+.footer-page > .content.-last {
+  float: right;
+}

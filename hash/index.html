@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jogo da Velha</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/generic/reset/index.css" />
+    <link rel="stylesheet" href="css/generic/game-container/index.css" />
+    <link rel="stylesheet" href="css/objects/title-game/index.css" />
+    <link rel="stylesheet" href="css/component/score-board/index.css" />
+    <link rel="stylesheet" href="css/component/table-game/index.css" />
+    <link rel="stylesheet" href="css/component/buttons/index.css" />
+    <link rel="stylesheet" href="css/objects/player-id/index.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1 class="title-game">Jogo da Velha</h1>
+      <form class="score-board" name="score">
+        <div class="score">
+          <p class="score title">Placar</p>
+          Jogador 1:
+          <input class="point" type="text" name="pointPlayer1" value="0" readonly size="1" />
+        </div>
+        <div class="score ">
+          Jogador 2:
+          <input class="point" type="text" name="pointPlayer2" value="0" readonly size="1" />
+        </div>
+        <div class="score -last">
+          <input class="btn -variation" type="reset" value="Zerar Placar" />
+        </div>
+      </form>
+      <table class="table-game">
+        <tr>
+          <td id="cel11" class="cellule" onclick="play(this.id); identifyWinner()"></td>
+          <td id="cel12" class="cellule" onclick="play(this.id); identifyWinner()"></td>
+          <td id="cel13" class="cellule" onclick="play(this.id); identifyWinner()"></td>
+        </tr>
+
+        <tr>
+          <td id="cel21" class="cellule" onclick="play(this.id); identifyWinner()"></td>
+          <td id="cel22" class="cellule" onclick="play(this.id); identifyWinner()"></td>
+          <td id="cel23" class="cellule" onclick="play(this.id); identifyWinner()"></td>
+        </tr>
+
+        <tr>
+          <td id="cel31" class="cellule" onclick="play(this.id); identifyWinner()"></td>
+          <td id="cel32" class="cellule" onclick="play(this.id); identifyWinner()"></td>
+          <td id="cel33" class="cellule" onclick="play(this.id); identifyWinner()"></td>
+        </tr>
+      </table>
+
+      <div>
+        <input class="btn" type="button" value="Novo Jogo" onclick="newGame()" />
+      </div>
+
+      <div class="player-id">
+        <span>Jogador 1:</span>
+        <img src="img/velha1.png" alt="velha1" />
+      </div>
+      <div class="player-id">
+        <span>Jogador 2:</span>
+        <img src="img/velha2.png" alt="velha2" />
+      </div>
+    </div>
+
+    <script src="js/play-game/index.js"></script>
+    <script src="js/identify-winner/index.js"></script>
+  </body>
+</html>

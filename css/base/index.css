@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100%;
+  max-width: 100%;
+}
+
+body {
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  background-color: #252a34;
+  background-image: linear-gradient(rgba(20, 16, 16, 0.6), rgba(20, 16, 16, 1));
+  position: relative;
+}

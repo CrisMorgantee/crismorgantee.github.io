@@ -1,0 +1,33 @@
+.score-board {
+  width: 200px;
+  margin-bottom: 30px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-family: "Comfortaa", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #00cdb1;
+  border-radius: 5px;
+}
+
+.score-board .score {
+  margin-bottom: 8px;
+}
+
+.score-board .score.title {
+  background-color: #096;
+  padding: 5px;
+}
+
+.score-board > .score.-last {
+  margin-bottom: 0;
+  padding-bottom: 3px;
+}
+
+.score-board .point {
+  border: none;
+  background-color: transparent;
+  margin-left: 5px;
+  font-size: 1.2em;
+}

@@ -1,0 +1,16 @@
+.networks-nav {
+  box-sizing: border-box;
+  width: 100px;
+  height: 290px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 22vh;
+}
+
+.networks-nav .item .icon {
+  width: 40px;
+  height: 40px;
+}

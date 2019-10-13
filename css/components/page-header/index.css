@@ -1,0 +1,97 @@
+.page-header {
+  height: 70px;
+}
+
+.page-header > .title {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 70px;
+  margin-left: 60px;
+  float: left;
+  cursor: pointer;
+}
+
+.page-header > .navigation {
+  font-size: 0;
+  font-weight: 600;
+  float: right;
+  margin-top: 30px;
+}
+
+.page-header > .navigation > .list > .item {
+  display: inline-block;
+  margin-right: 60px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.page-header > .navigation > .list > .item.-last {
+  margin-right: 40px;
+}
+
+.page-header > .navigation .action {
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.page-header > .navigation .action:after {
+  content: "";
+  height: 15px;
+  width: 100%;
+  background-color: #ff5c00;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition: transform 150ms linear;
+  transform-origin: center left;
+  transform: scaleX(0);
+}
+
+.page-header > .navigation .action:hover:after {
+  transform: scaleX(1);
+}
+
+.page-header > .navigation .action.-selected:before {
+  content: "";
+  height: 10px;
+  width: 45%;
+  background-color: #ff5c00;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  transform: translateY(100%);
+}
+
+@media (max-width: 1260px) {
+  .page-header > .title {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  .page-header > .navigation > .list > .item {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .page-header > .title {
+    font-size: 24px;
+  }
+
+  .page-header > .navigation > .list > .item {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 959px) {
+  .page-header > .navigation {
+    display: none;
+  }
+
+  .page-header > .title {
+    font-size: 28px;
+  }
+}

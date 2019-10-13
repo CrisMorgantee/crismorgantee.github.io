@@ -1,0 +1,24 @@
+html,
+body {
+  background: #eee;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+.game-container {
+  box-sizing: border-box;
+  margin: 0 auto;
+
+  text-align: center;
+  width: 100vw;
+  height: 100%;
+  padding: 5vh;
+  font-family: "Comfortaa", sans-serif;
+}
+
+@media (min-width: 375px) {
+  html,
+  body {
+    overflow-x: none;
+  }
+}
