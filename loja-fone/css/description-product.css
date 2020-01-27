@@ -3,17 +3,17 @@
   color: #fff;
 }
 
-.description-product>.title {
+.description-product > .title {
   font-size: 25px;
   margin-bottom: 50px;
 }
 
-.description-product>.item {
+.description-product > .item {
   font-size: 20px;
   margin-bottom: 28px;
 }
 
-.description-product>.item.-heart {
+.description-product > .item.-heart {
   position: absolute;
   transform: translateX(-100%);
   top: 8px;
@@ -23,7 +23,7 @@
   height: 29px;
 }
 
-.description-product>.item.-active {
+.description-product > .item.-active {
   background-color: #262a36;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .description-product .icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .description-product .item .icon.-active {
@@ -44,11 +44,11 @@
   display: none;
 }
 
-.description-product>.item.-active .icon {
+.description-product > .item.-active .icon {
   display: none;
 }
 
-.description-product>.item.-active .icon.-active {
+.description-product > .item.-active .icon.-active {
   display: block;
 }
 
@@ -56,30 +56,29 @@
   display: inline-block;
 }
 
-.description-product .star.-active>.icon {
+.description-product .star.-active > .icon {
   display: none;
 }
 
-.description-product .star.-active>.-active {
+.description-product .star.-active > .-active {
   display: block;
 }
 
-.description-product>.item.-star {
+.description-product > .item.-star {
   margin-bottom: 10px;
   cursor: pointer;
-
 }
 
-.description-product>.item.-star+.item {
+.description-product > .item.-star + .item {
   margin-left: 7px;
 }
 
-.description-product>.item.-info {
+.description-product > .item.-info {
   width: 200px;
   text-align: right;
 }
 
-.description-product>.item.-last {
+.description-product > .item.-last {
   margin-bottom: 72px;
 }
 
@@ -88,13 +87,13 @@
   float: left;
 }
 
-.description-product>.text {
+.description-product > .text {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 30px;
 }
 
-.description-product>.text.-more {
+.description-product > .text.-more {
   margin-bottom: 0;
 }
 
@@ -110,7 +109,7 @@
     margin: 0 auto 60px;
   }
 
-  .description-product>.title {
+  .description-product > .title {
     font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
@@ -121,12 +120,12 @@
     left: auto;
   }
 
-  .description-product>.item.-star {
+  .description-product > .item.-star {
     float: left;
     margin-right: 10px;
   }
 
-  .description-product>.item.-number {
+  .description-product > .item.-number {
     padding-top: 4px;
   }
 }
