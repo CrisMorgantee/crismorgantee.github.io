@@ -19,7 +19,6 @@
   background-color: #fff;
   z-index: -1;
   transform: translateX(-100%);
-
 }
 
 @media (max-width: 1325px) {
@@ -44,7 +43,7 @@
     height: auto;
   }
 
-  .photo-product>.photo {
+  .photo-product > .photo {
     width: 100%;
   }
 }

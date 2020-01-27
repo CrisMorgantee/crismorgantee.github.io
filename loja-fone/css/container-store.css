@@ -11,8 +11,7 @@
   box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.36);
 }
 
-@media (max-width: 1470px),
-(max-height: 952px) {
+@media (max-width: 1470px), (max-height: 952px) {
   .container-store {
     position: static;
     transform: none;
