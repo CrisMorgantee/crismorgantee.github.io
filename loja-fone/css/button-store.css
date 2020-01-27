@@ -28,6 +28,7 @@
 }
 
 .button-store.-second {
+  font-size: 18px;
   background-color: transparent;
   border: 2px solid #fff;
   width: 218px;
@@ -40,8 +41,8 @@
   color: #e24647;
 }
 
-.button-store>button,
-.button-store>a {
+.button-store > button,
+.button-store > a {
   font-size: inherit;
   background-color: inherit;
   border: none;
@@ -62,7 +63,6 @@
 }
 
 @media (max-width: 515px) {
-
   .button-store,
   .button-store.-second {
     display: block;
@@ -73,6 +73,5 @@
 
   .button-store.-second {
     margin-bottom: 20px;
-
   }
 }
