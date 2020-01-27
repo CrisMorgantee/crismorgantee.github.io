@@ -1,0 +1,121 @@
+.wrapper-content {
+  display: flex;
+}
+
+.wrapper-content .profile {
+  width: 260px;
+}
+
+.wrapper-content .profile > .avatar {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -130px;
+}
+
+.wrapper-content .profile .title {
+  font-size: 22px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+
+.wrapper-content .profile .tag {
+  font-size: 14px;
+  color: #53626c;
+}
+
+.wrapper-content .profile .description {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+
+.wrapper-content .profile ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.wrapper-content .profile .list .itemList {
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+  color: #657786;
+
+  margin-top: 5px;
+}
+
+.wrapper-content .profile .list .itemList:first-child {
+  margin: 0;
+}
+
+.wrapper-content .profile .list .itemList .icons {
+  height: 16px;
+  margin-right: 10px;
+}
+
+.wrapper-content .profile .widget {
+  margin-top: 20px;
+}
+
+.wrapper-content .profile .widget strong {
+  display: flex;
+  align-items: center;
+
+  font-weight: normal;
+  color: #3bb0e3;
+  font-size: 14px;
+}
+
+.wrapper-content .profile .widget strong img {
+  height: 15px;
+  margin-right: 5px;
+}
+
+.wrapper-content .profile .followers .follow {
+  border-radius: 50%;
+}
+
+.wrapper-content .profile .followers ul {
+  display: flex;
+
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.wrapper-content .profile .followers ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+  margin: 0 5px 5px 0;
+
+  width: 45px;
+  height: 45px;
+
+  background-color: #d0d5d9;
+
+  border-radius: 50%;
+}
+.wrapper-content .profile .images ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.wrapper-content .profile .images ul li {
+  flex: 1 0 auto;
+  margin: 0 5px 5px 0;
+
+  width: 80px;
+  height: 80px;
+
+  background-color: #d0d5d9;
+
+  border-radius: 8px;
+}
+
+.wrapper-content .profile .images ul li img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+}

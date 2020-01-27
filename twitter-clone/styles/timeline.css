@@ -1,0 +1,86 @@
+.wrapper-content .timeline {
+  flex: 1;
+  background-color: #fff;
+  margin: 10px 10px 0;
+}
+
+.wrapper-content .timeline .navigation {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+}
+.wrapper-content .timeline .navigation a {
+  text-decoration: none;
+  color: #3bb0e3;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.wrapper-content .timeline .navigation a:first-child {
+  margin: 0;
+}
+
+.wrapper-content .timeline .navigation a.active {
+  color: #1f2226;
+}
+
+.wrapper-content .timeline .tweets {
+  list-style: none;
+}
+
+.wrapper-content .timeline .tweets .tweet {
+  display: flex;
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+}
+
+.wrapper-content .timeline .tweets .tweet > img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.wrapper-content .timeline .tweets .tweet .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.wrapper-content .timeline .tweets .tweet .info strong {
+  font-size: 14px;
+  color: #1f2326;
+}
+
+.wrapper-content .timeline .tweets .tweet .info strong span {
+  font-weight: normal;
+  font-size: 12px;
+  color: #7b8b9a;
+}
+
+.wrapper-content .timeline .tweets .tweet .info p {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 5px;
+}
+
+.wrapper-content .timeline .tweets .tweet .actions {
+  display: flex;
+}
+
+.wrapper-content .timeline .tweets .tweet .actions a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #667580;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.wrapper-content .timeline .tweets .tweet .actions a:first-child {
+  margin: 0;
+}
+
+.wrapper-content .timeline .tweets .tweet .actions img {
+  margin-right: 5px;
+}

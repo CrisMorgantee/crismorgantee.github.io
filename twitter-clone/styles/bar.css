@@ -1,0 +1,91 @@
+.bar {
+  height: 59px;
+
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.bar .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+
+  padding-left: 300px;
+}
+
+.bar .content .list {
+  display: flex;
+
+  height: 100%;
+
+  list-style: none;
+}
+
+.bar .content .list .active::after {
+  content: "";
+
+  width: 100%;
+  height: 2px;
+
+  background-color: #3bb0e3;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.bar .content .list .listItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 0 15px;
+  position: relative;
+}
+
+.bar .content .list .listItem .title {
+  color: #667580;
+  font-size: 12px;
+  font-weight: bold;
+}
+.bar .content .list .listItem .values {
+  color: #667580;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.bar .content .list .active .values {
+  color: #3bb0e3;
+}
+
+.bar .content .actions {
+  display: flex;
+  align-items: center;
+}
+
+.bar .content .actions .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  height: 34px;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  color: #3bb9e3;
+  background-color: #fff;
+
+  border-radius: 16px;
+  border: 1px solid #3bb0e3;
+}
+
+.bar .content .actions .icon {
+  height: 20px;
+  margin-left: 20px;
+}
