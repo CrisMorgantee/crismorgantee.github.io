@@ -1,0 +1,60 @@
+.section-content {
+  color: #fff;
+  margin-left: 75px;
+}
+
+.section-content > .brand {
+  display: block;
+  font-family: "K2D", "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 0.25px;
+  margin-top: 160px;
+  margin-bottom: 15px;
+}
+
+.section-content > .brand > .reg {
+  position: relative;
+  font-size: 0.8rem;
+  bottom: 8px;
+  margin-left: -5px;
+}
+
+.section-content > .title {
+  display: block;
+  font-family: "Playfair Display", "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 64px;
+  margin-top: 0;
+  margin-bottom: 52px;
+  width: 635px;
+}
+
+.section-content > .text {
+  font-family: "Libre Baskerville", "Roboto", sans-serif;
+  font-size: 10px;
+  width: 205px;
+  letter-spacing: 0.3px;
+  line-height: 15px;
+  margin-bottom: 15px;
+}
+
+.buy {
+  position: relative;
+  bottom: 160px;
+  left: 280px;
+  color: inherit;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: "Playfair Display", "Roboto", sans-serif;
+}
+
+.buy::after {
+  content: "";
+  display: block;
+  width: 240px;
+  position: relative;
+  bottom: 12px;
+  right: 18px;
+  border-bottom: 2px solid #ab9a79;
+}

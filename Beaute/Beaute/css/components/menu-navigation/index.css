@@ -1,0 +1,43 @@
+.menu-navigation {
+    padding-left: 73px;
+    font-family: 'K2D', 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    font-size: 15px;    
+}
+
+.menu-navigation>.item {
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-navigation>.item.-var {
+    position: relative;
+    margin-right: 88px;
+    font-size: 38px;
+    margin-top: 32px;
+    transform: translateY(10%);
+    letter-spacing: 2.5px;
+}
+
+.menu-navigation>.item.-reg {
+    position: relative;
+    right: 88px;
+    bottom: 10px;
+    margin: 0;
+}
+
+.menu-navigation>.item.-nav {
+    margin-right: 65px;
+    position: relative;
+}
+
+.menu-navigation>.item.-nav.-icon {
+    margin-right: 0;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 100;
+}

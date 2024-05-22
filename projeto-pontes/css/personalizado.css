@@ -1,0 +1,109 @@
+
+.menup{
+  background: rgba(0,29,126,.9);
+  margin:0;
+  border: 0;
+}
+
+.logo{
+  height: 100%;
+  width: auto;
+}
+
+
+.cabecalho-site{
+
+  background-image: url(../img/banner.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding-top: 300px;
+  padding-bottom:300px;
+  height: 100vh;
+}
+
+.subtitulo{
+	color: #f6ae3d;
+	/*web design responsivo -  vh é altura da viewport e vw largura da viewport*/
+	font-size: 1.5vw;
+	margin: 0;
+}
+
+.titulo{
+	font-size: 8vw;
+	margin:0;
+}
+
+
+.destaque{
+	background: #f6ae3d;
+	padding: .7vw;
+	font-size: 1.5vmax;
+	border-radius: 5px;
+}
+
+.contador{
+	margin: 40px 0;
+	font-size: 2vw;
+
+}
+.contador span{
+	margin-right: 1vw;
+}
+
+.navbar-right li a{
+	color: #fff !important;
+}
+
+.navbar-right li a:hover{
+	background:#f6ae3d !important;
+
+	/* motor de renderização escrito primariamente em C++*/
+  -webkit-transition: 0.4s linear;
+	-moz-transition: 0.4s linear;
+	-o-transition: 0.4s linear;
+
+
+
+}
+
+
+
+
+.linha {
+
+  display:table-cell;  /*para centralizar*/
+  vertical-align: middle;  /*para centralizar*/
+}
+
+.programacao{
+  padding-top: 10vh;
+  margin: 0;
+}
+.fullpage{
+
+  height: 100vh;
+}
+
+
+
+
+
+.rodape{
+  padding: 20px 0;
+  background: rgba(0,29,126);
+  color: #fff;
+}
+
+.rodape img{
+  height: 50px;
+  margin: 0 auto;
+}
+
+#mensagem{	
+	font-size: 2.5vw;
+	font-weight: bold;
+	color:#E59600;	
+}
